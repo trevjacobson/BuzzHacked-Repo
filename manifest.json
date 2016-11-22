@@ -1,0 +1,24 @@
+{
+  "manifest_version": 1,
+
+  "name": "BuzzHacked Emailer",
+  "description": "Attach text to your email to inform others of BuzzHacked.com.",
+  "version": "1.0",
+  "options_ui": {
+    "page" : "options.html",
+    "chrome_style": true
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128":"icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_title": "BuzzHacked",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "http://*/*"
+  ]
+}
